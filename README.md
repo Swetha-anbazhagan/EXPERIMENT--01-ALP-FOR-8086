@@ -189,7 +189,7 @@ OR AL, BL
 <img width="700" height="541" alt="Screenshot 2026-04-21 223453" src="https://github.com/user-attachments/assets/f1961800-7983-419b-831e-0e19bc2366bd" />
 
 
-## AND of 16 bit numbers  ALP 
+## OR of 16 bit numbers  ALP 
 ```
 MOV AX, 0A0AH
 MOV BX, 0505H
@@ -237,7 +237,7 @@ XOR AL, BL
 <img width="701" height="537" alt="image" src="https://github.com/user-attachments/assets/8d472acb-6970-4116-b9a8-f133289d1ec1" />
 
 
-## Division of 16 bit numbers alp 
+## XOR of 16 bit numbers alp 
 
 ```
 MOV AX, 0010H
