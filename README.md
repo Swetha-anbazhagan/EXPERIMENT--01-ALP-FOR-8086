@@ -1,11 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
 Name :Swetha A
+
 Roll no :212224040343
+
 Date of experiment :24/04/26
-
-
-
-
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
