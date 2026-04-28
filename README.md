@@ -78,39 +78,85 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
 MOV AL, 12H
 MOV BL, 11H
 ADD AL, BL 
-
+```
 ## Output  
 <img width="705" height="429" alt="Screenshot 2026-04-21 215824" src="https://github.com/user-attachments/assets/7e4e6875-916f-40c0-86a9-8dbd8d0bed8a" /> 
 
+## Addition  of 16 bit ALP 
+```
+MOV AX, 1234H
+MOV BX, 1111H
+ADD AX, BX 
+```
+## Output  
+<img width="703" height="535" alt="Screenshot 2026-04-21 220104" src="https://github.com/user-attachments/assets/61ad75d1-0e95-41fb-9b28-3b459eea2775" />
+
 ## Subtraction   of 8 bit numbers  ALP 
+```
 MOV AL, 12H
 MOV BL, 11H
 ADD AL, BL
+```
 
  ## Output  
 <img width="695" height="543" alt="Screenshot 2026-04-21 220735" src="https://github.com/user-attachments/assets/658a686b-92f7-4465-b4a8-3cb4ff8018fc" />
 
-## Multiplication alp 
+## Subtraction   of 16 bit numbers  ALP 
+```
+MOV AX, 1234H
+MOV BX, 1111H
+SUB AX, BX  
+
+```
+
+ ## Output  
+<img width="698" height="515" alt="Screenshot 2026-04-21 220223" src="https://github.com/user-attachments/assets/1251fdd9-c3de-499a-aa6f-d41a6de02a6b" />
+
+
+## Multiplication of 8 bit numbers alp 
+```
 MOV AL, 05H
 MOV BL, 04H
 MUL BL
-
+```
 ## Output  
 <img width="698" height="538" alt="Screenshot 2026-04-21 220935" src="https://github.com/user-attachments/assets/94b45c4f-d5af-4a0d-93e1-97edf3cb8969" />
 
-## Division alp 
+## Multiplication of 16 bit numbers alp 
+```
+MOV AX, 0005H
+MOV BX, 0004H
+MUL BX
 
+```
+## Output  
+<img width="702" height="539" alt="Screenshot 2026-04-21 221037" src="https://github.com/user-attachments/assets/dbaaad00-30df-45ab-97e1-859789d321eb" />
 
+## Division of 8 bit numbers alp 
+
+```
 MOV AL, 10H
 MOV BL, 04H
 DIV BL
-
+````
 
 ## Output  
 <img width="699" height="536" alt="Screenshot 2026-04-21 221204" src="https://github.com/user-attachments/assets/e3dc208c-e445-4ab8-a1b8-12d1ae70457d" />
+
+## Division of 16 bit numbers alp 
+
+```
+MOV AX, 0010H
+MOV BX, 0004H
+DIV BX
+````
+
+## Output  
+<img width="696" height="538" alt="Screenshot 2026-04-21 221305" src="https://github.com/user-attachments/assets/2eb58b14-c1b3-496e-a750-baafc83c72e6" />
 
 ## Result :
  Thus,to Write and execute ALP on fundamental arithmetic and logical operations is executed successfully
