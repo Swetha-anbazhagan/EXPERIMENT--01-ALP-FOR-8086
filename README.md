@@ -176,7 +176,7 @@ AND AX, BX
 
 ```
 ## Output  
-<img width="705" height="535" alt="Screenshot 2026-04-21 223223" src="https://github.com/user-attachments/assets/779424a7-5d52-4226-a74d-b610cb52be6c" />
+<img width="709" height="538" alt="image" src="https://github.com/user-attachments/assets/db0e9350-451d-4477-aac4-f99aee0f6215" />
 
 ## OR of 8 bit numbers  ALP 
 ```
