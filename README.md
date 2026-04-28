@@ -156,8 +156,100 @@ DIV BX
 ## Output  
 <img width="696" height="538" alt="Screenshot 2026-04-21 221305" src="https://github.com/user-attachments/assets/2eb58b14-c1b3-496e-a750-baafc83c72e6" />
 
+
+## Programs for Logical  operations
+
+## AND  of 8 bit ALP 
+```
+MOV AL, 0FH      
+MOV BL, 03H      
+AND AL, BL 
+```
+## Output  
+<img width="699" height="540" alt="Screenshot 2026-04-21 221534" src="https://github.com/user-attachments/assets/4afc3c40-86b7-4e5a-960a-34a109784ff2" />
+
+## AND of 16 bit ALP 
+```
+MOV AX, 0F0FH
+MOV BX, 00FFH
+AND AX, BX 
+
+```
+## Output  
+<img width="705" height="535" alt="Screenshot 2026-04-21 223223" src="https://github.com/user-attachments/assets/779424a7-5d52-4226-a74d-b610cb52be6c" />
+
+## OR of 8 bit numbers  ALP 
+```
+MOV AL, 0AH      
+MOV BL, 05H      
+OR AL, BL
+```
+
+ ## Output  
+<img width="700" height="541" alt="Screenshot 2026-04-21 223453" src="https://github.com/user-attachments/assets/f1961800-7983-419b-831e-0e19bc2366bd" />
+
+
+## AND of 16 bit numbers  ALP 
+```
+MOV AX, 0A0AH
+MOV BX, 0505H
+OR AX, BX 
+
+```
+
+ ## Output  
+<img width="704" height="541" alt="Screenshot 2026-04-21 223710" src="https://github.com/user-attachments/assets/fee4e9a9-f672-469c-a25d-419193093e0a" />
+
+
+## NOR of 8 bit numbers alp 
+```
+MOV AL, 0AH
+MOV BL, 05H
+OR AL, BL
+NOT AL
+
+```
+## Output  
+<img width="700" height="544" alt="image" src="https://github.com/user-attachments/assets/120793a8-5d16-44d0-956e-dc9634e32b74" />
+
+## NOR of 16 bit numbers alp 
+```
+MOV AX, 0A0AH
+MOV BX, 0505H
+OR AX, BX
+NOT AX
+
+```
+## Output  
+<img width="704" height="537" alt="image" src="https://github.com/user-attachments/assets/303f93d6-b112-488c-ab17-dd2adff81e24" />
+
+
+## XOR of 8 bit numbers alp 
+
+```
+MOV AL, 0AH
+MOV BL, 0AH
+XOR AL, BL 
+
+````
+
+## Output  
+<img width="701" height="537" alt="image" src="https://github.com/user-attachments/assets/8d472acb-6970-4116-b9a8-f133289d1ec1" />
+
+
+## Division of 16 bit numbers alp 
+
+```
+MOV AX, 0010H
+MOV BX, 0004H
+XOR AX,BX
+````
+
+## Output  
+<img width="701" height="537" alt="image" src="https://github.com/user-attachments/assets/d5877e2f-f85c-469b-9122-912a6e4db210" />
+
 ## Result :
- Thus,to Write and execute ALP on fundamental arithmetic and logical operations is executed successfully
+Thus,to Write and execute ALP on fundamental arithmetic and logical operations is executed successfully
 
 
 
